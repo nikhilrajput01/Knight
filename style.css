@@ -71,6 +71,7 @@
     background-image: url(black-clover-bg-img.jpg);
     padding: 0rem 1rem 6rem 1rem;
     background-repeat: no-repeat;
+    background-size:cover;
 }
 .home{
     display:flex;
