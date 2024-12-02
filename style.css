@@ -68,7 +68,7 @@
 
 /************ home start **************/
 #header{
-    background-image: url(../img/black-clover-bg-img.jpg);
+    background-image: url(black-clover-bg-img.jpg);
     padding: 0rem 1rem 6rem 1rem;
     background-repeat: no-repeat;
 }
@@ -218,7 +218,7 @@
 
 /************ contact start **************/
 .footer{
-    background-image: url(../img/black-clover-11.jpg);
+    background-image: url(black-clover-11.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
