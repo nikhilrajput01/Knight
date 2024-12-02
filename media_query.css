@@ -1,0 +1,237 @@
+/************ navbar media-query **************/
+@media only screen and (max-width:1230px){
+    .header{
+        width: 100%;
+    }
+    .navbar-item-list{
+        margin-left: 10rem;
+    }
+}
+@media only screen and (max-width:1150px){
+    .header{
+        width: 100%;
+    }
+    .navbar-item-list{
+        margin-left: 0rem;
+        font-size: 30px;
+    }
+    .navbar-item-link{
+        padding: 0rem 1rem;
+        font-size: 30px;
+    }
+    
+}
+@media only screen and (max-width:900px){
+    .header{
+        width: 100%;
+    }
+    .navbar-item-list{
+        margin-left: 0rem;
+        font-size: 20px;
+    }
+    .navbar-item-link{
+        padding: 0rem 1rem;
+        font-size: 20px;
+    }
+    .brand-link{
+        font-size: 40px;
+        }
+}
+@media only screen and (max-width:680px){
+     #nav{
+        display: inline;
+     }
+    .navbar-item-list{
+        margin-left: 0rem;
+        font-size: 20px;
+        display: inline;
+        padding: 0rem 0.5rem;
+    }
+    .navbar-item-link{
+        padding: 0.2rem 1rem;
+    }
+    .navbar-item-dropdown{
+        margin-left: 1rem;
+    }
+} 
+/************ navbar media-query **************/
+
+/************ home media-query **************/
+@media only screen and (max-width:990px){
+    .home-text{
+        padding: 0rem 0rem 0rem 2rem;
+    }
+    .home-heading{
+        font-size: 3rem;
+    }
+    .home p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+        margin: 0.7rem 0rem;
+    }
+}
+
+@media only screen and (max-width:650px){
+    #header{
+        width: 100%;
+        background-size: cover;
+        padding-right: 3.6rem;
+    }
+    .home{
+        flex-direction: column;
+        margin-left:1rem ;
+    }
+    .home-img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .home-text{
+        width: 100%;
+        padding: 0rem 2rem 0rem 0.6rem;
+    }
+    .home-heading{
+        font-size: 3rem;
+    }
+    .home p{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin: 0.6rem 0rem;
+    }
+}
+/************ home media-query **************/
+
+/************ aboutus media-query **************/
+@media only screen and (max-width:990px){
+    .aboutus{
+        flex-wrap:wrap ;
+    }
+    .about-img{
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+    .about-text{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .aboutus{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+}
+/************ aboutus media-query **************/
+
+
+/************ team media-query **************/
+@media only screen and (max-width:990px){
+    .team{
+        flex-wrap:wrap ;
+        justify-content: none;
+        margin-left: 2rem;
+        padding-left: 1rem;
+    }
+    .team-card{
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+    .card-para{ 
+        text-align: center;
+        margin-left: 2.8rem;
+    }
+    .card h1{
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .team{
+        margin-left:3rem ;
+    }
+    .team-card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .button{
+        margin-left: 4rem;
+    }
+}
+/************ team media-query **************/
+
+/************ story media-query **************/
+@media only screen and (min-width:760px){
+    .box{
+        width: 50%;
+    }
+    .story-box{
+        width: 100%;
+        display: flex;
+    }
+    .story{
+        margin-left: 0rem;
+    }
+}
+/************ story media-query **************/
+
+/************ contact media-query **************/
+@media only screen and (max-width:1235px){
+    .footer{
+        padding-right:2rem ;
+    }
+    .contact-overlay{
+        padding-right:2rem ;
+    }
+    .map{
+        width: fit-content;
+    }
+}
+@media only screen and (max-width:990px){
+    .contact{
+        flex-wrap: wrap;
+        display:inline-flex;
+    }
+   .contact-info{
+        width: 45%;
+    }
+    .map{
+        margin: -3rem;
+    }
+    .map iframe{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:650px){
+    .footer{
+        padding-right:4.6rem
+    }
+    .contact-overlay{
+        padding-right:4.6rem
+    }
+    .contact{
+        flex-direction: column;
+    }
+   .contact-info{
+        width: 100%;
+        margin: 0.6rem 0rem; 
+        text-align:justify;
+    }
+    .map{
+        margin-left:5rem;
+        margin-top: 1rem;
+    }
+    .map iframe{
+        width: 500px;
+    }
+    .footer h3{
+        text-align: center;
+        margin-left: 3rem;
+    }
+}
+/************ contact media-query **************/
